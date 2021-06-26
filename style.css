@@ -13,7 +13,7 @@
   scroll-behavior: smooth;
 }
 #banner{
-  background: linear-gradient(rgb(0,0,0,0.5), var(--pri-clr)), url(Img/Img8.jpg);
+  background: linear-gradient(rgb(0,0,0,0.5), var(--pri-clr)), url(Img/Img2.jpg);
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -117,7 +117,7 @@ nav ul li a{
   width: 20px;
   margin: 15px 15px;
 }
- /* @media screen and (max-width: 770px){
+  @media screen and (max-width: 770px){
  .banner-text h1{
    font-size: 44px;
  }
@@ -125,7 +125,7 @@ nav ul li a{
    display: block;
    margin: 20px auto;
  }
-} */
+} 
 
 /* features */
 #feature{
