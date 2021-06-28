@@ -126,6 +126,11 @@ nav ul li a{
    margin: 20px auto;
  }
 } 
+/* About us */
+#about{
+  width: 100%;
+  padding: 70px 0;
+}
 
 /* features */
 #feature{
@@ -219,6 +224,7 @@ nav ul li a{
   }
 } 
 
+
 /* service */
 
 #service{
@@ -297,7 +303,35 @@ hr{
     bottom:25% !important;
   }
 } 
+/* galary */
 
+#galary{
+  width: 100%;
+  padding: 70px 0;
+  background: #fff;
+}
+.gallary-photos{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.gallary-col{ 
+  padding: 0px;
+  max-width:  300px;
+  margin: 0 0 50px 50px;
+} 
+.gallary-col img{
+  width: 100%;
+  border-radius: 7px;
+  transition: all .5s;
+}
+.gallary-col img:hover{
+  transform: scale(1.4);
+}
+
+/* .testimonial */
 #testimonial {
     width: 100%;
     padding: 70px 0;
@@ -348,7 +382,8 @@ hr{
 /* footer */
 #footer{
   padding: 100px 0 20px;
-  background: #efefef;
+  background: #333;
+  color: #fff;
   position: relative;
 }
 .footer-row{
