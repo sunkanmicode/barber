@@ -131,6 +131,14 @@ nav ul li a{
   width: 100%;
   padding: 70px 0;
 }
+.about-para{
+  width: 700px;
+  margin: auto;
+  font-family: 'Poppins', sans-serif;
+  font-style: italic;
+  line-height: 2rem;
+  text-align: center;
+}
 
 /* features */
 #feature{
